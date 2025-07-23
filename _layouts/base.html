@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
-  <!-- Load MathJax -->
-  <script type="text/javascript">
+  {%- include head.html -%}
+
+<script type="text/javascript">
     window.MathJax = {
       loader: {load: ['[tex]/mathtools']},
       tex: {
@@ -19,18 +20,7 @@
       }
     };
   </script>
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-533TZGESGM"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-533TZGESGM');
-  </script>
-
-  {%- include head.html -%}
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 
   <body>
 
@@ -44,8 +34,8 @@
 
     {%- include footer.html -%}
 
+    {%- include sub-footer.html -%}
 
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
   </body>
 
 </html>
