@@ -5,4 +5,4 @@ permalink: /publications/
 nav: true
 ---
 
-Projects
+Publications
