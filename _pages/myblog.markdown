@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-permalink: /blog/
+permalink: /myblog/
 ---
 
 {% assign posts = site.posts %}
