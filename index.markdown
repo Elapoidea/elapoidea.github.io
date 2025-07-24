@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+Hello. My name is Asher Grizzaffi. I am a mostly self-taught mathematics student who is currently a student at the University of Texas at Dallas. 

@@ -1,2 +1,23 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.side {
+    width: $side-width;
+    height: 100vw;
+    position: fixed;
+    top: $spacing-unit * 1.865 + 1px; 
+
+    background-image: url('/assets/images/chessboard.png');
+    background-repeat: repeat;
+    background-position: top left;
+    // background-attachment: fixed;
+    background-size: 2 * $side-width 2 * $side-width;
+}
+
+.quote {
+    margin: auto;
+    width: 50%;
+    padding-bottom: 2vw;
+    color: rgb(182, 182, 182);
+    font-size: 30px;
+}

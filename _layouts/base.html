@@ -3,7 +3,7 @@
 
   {%- include head.html -%}
 
-<script type="text/javascript">
+  <script type="text/javascript">
     window.MathJax = {
       loader: {load: ['[tex]/mathtools']},
       tex: {
@@ -24,18 +24,15 @@
 
   <body>
 
-    {%- include header.html -%}
-
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
       </div>
     </main>
-
-    {%- include footer.html -%}
-
-    {%- include sub-footer.html -%}
-
   </body>
 
+  {%- include header.html -%}
+
+  <div style="left: 0vw;" class="side"></div>
+  <div style="right: 0vw;" class="side"></div>
 </html>

@@ -4,8 +4,6 @@ title: "First Post / Small Puzzle"
 date: 2025-07-23
 ---
 
-Hello. Here is a problem found on the YouTube channel Prime Newtons.
-
 # Problem
 
 Find all prime numbers $p$ such that $p^2 + 11$ has 6 divisors.

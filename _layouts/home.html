@@ -7,8 +7,9 @@ layout: base
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {{ content }}
+  <div class="quote">My brain is open! - Paul Erdős</div>
 
+  {{ content }}
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
