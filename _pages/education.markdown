@@ -9,7 +9,7 @@ permalink: /education/
         - College Algebra
     2. Fall 2023
         - CLEP Precalculus
-        - Clep Calculus 1
+        - CLEP Calculus 1
     3. Spring 2024
         - Discrete Mathematics
     4. Summer 2024

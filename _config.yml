@@ -35,6 +35,7 @@ google_analytics: G-533TZGESGM
 
 minima:
   skin: new
+  show_excerpts: true
 
 header_pages:
 - _pages/about.md

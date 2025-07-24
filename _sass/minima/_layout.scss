@@ -218,9 +218,11 @@
 .post-list {
   margin-left: 0;
   list-style: none;
+  width: 10vw;
+  float: right;
 
   > li {
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit * 0;
   }
 }
 
@@ -231,7 +233,7 @@
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  @include relative-font-size(1.75);
 }
 
 

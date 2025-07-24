@@ -2,9 +2,12 @@
 layout: post
 title: "First Post / Small Puzzle"
 date: 2025-07-23
+favourite: true
+excerpt: "Find all prime numbers $p$ such that $p^2 + 11$ has 6 divisors"
 ---
 
 # Problem
+
 
 Find all prime numbers $p$ such that $p^2 + 11$ has 6 divisors.
 

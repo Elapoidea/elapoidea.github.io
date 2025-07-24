@@ -3,7 +3,7 @@
 
 .side {
     width: $side-width;
-    height: 100vw;
+    height: 200vw;
     position: fixed;
     top: $spacing-unit * 1.865 + 1px; 
 
@@ -16,8 +16,14 @@
 
 .quote {
     margin: auto;
-    width: 50%;
+    width: 64%;
     padding-bottom: 2vw;
     color: rgb(182, 182, 182);
     font-size: 30px;
+}
+
+.main-content {
+    width: 35vw;
+    float: left;
+    text-align: justify;
 }
