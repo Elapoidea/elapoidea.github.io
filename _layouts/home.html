@@ -10,16 +10,17 @@ layout: base
   
 
   <div class="main-content">
-    <div class="quote">My brain is open! - Paul Erdős</div>
     {{ content }}
   </div>
 
-  {% assign posts = site.posts %}
 
   <ul class="post-list">
     <h2>Favourites</h2>
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    {%- assign favourite_posts = site.posts | where: "favourite", true | slice: 0, 5 -%}
+    {%- assign favourite_posts = site.posts 
+        | where: "favourite", true 
+        | where: "publish", true 
+        | slice: 0, 5 -%}
     {%- for post in favourite_posts -%}
     <li>
       <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
@@ -39,6 +40,10 @@ layout: base
   <ul class="post-list">
     <h2>Most Recent</h2>
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- assign posts = site.posts 
+        | where: "publish", true 
+        | slice: 0, 5 -%}
+
     {%- for post in posts limit:5 -%}
     <li>
       <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
@@ -50,4 +55,49 @@ layout: base
     </li>
     {%- endfor -%}
   </ul>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <div class="contact-list">
+    <ul>
+      <li><i class="fas fa-envelope"></i> Asher.Grizzaffi@UTDallas.edu</li>
+      <li><i class="fas fa-envelope"></i> agrizzaffi2@collin.edu</li>
+      <li><i class="fas fa-envelope"></i> Elapoidea@protonmail.com</li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/Elapoidea" target="_blank">Elapoidea</a></li>
+      <li><i class="fab fa-discord"></i> Elapoidea</li>
+    </ul>
+  </div>
+
+  <style>
+    .contact-list {
+      position: absolute;
+      bottom: 0vw;
+      left: 20vw;
+      margin-left: 0vw;
+      list-style: none;
+      width: 17vw;
+      float: right;
+
+      > li {
+        margin-bottom: 0;
+      }
+    }
+
+    .contact-list h2 {
+      margin-top: 0;
+      margin-left: 3.3vw;
+    }
+    .contact-list ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .contact-list li {
+      margin: 0.5rem 0;
+      font-size: 1rem;
+    }
+    .contact-list i {
+      margin-right: 0.5rem;
+      color: #555;
+    }
+  </style>
 </div>

@@ -2,6 +2,8 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" type="image/x-icon">
 
+  <title>{{ site.title }}</title>
+
   {%- include head.html -%}
 
   <script type="text/javascript">
@@ -24,7 +26,6 @@
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 
   <body>
-
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}

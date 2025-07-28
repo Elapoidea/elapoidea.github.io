@@ -6,8 +6,9 @@
     height: 200vw;
     position: fixed;
     top: $spacing-unit * 1.865 + 1px; 
+    flex: 1;
 
-    background-image: url('/assets/images/chessboard.png');
+    background-image: url('/assets/images/chessboard3.png');
     background-repeat: repeat;
     background-position: top left;
     // background-attachment: fixed;
@@ -26,4 +27,35 @@
     width: 35vw;
     float: left;
     text-align: justify;
+
+}
+
+
+.education-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2em 0;
+  background-color: white; /* Fixes black background issue */
+  color: black;            /* Ensures text is visible */
+}
+
+.education-table th,
+.education-table td {
+  padding: 0.75em;
+  border: 1px solid #ccc;
+  text-align: left;
+  background-color: white;
+  color: black;
+}
+
+.education-table thead {
+  background-color: #f5f5f5;
+  color: black;
+}
+
+.education-table td small {
+  color: #555;
+}
+.education-table tr.degree-separator td {
+  border-top: 3px solid #333; /* Adjust thickness or color as you like */
 }
