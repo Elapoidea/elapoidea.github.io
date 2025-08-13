@@ -64,10 +64,10 @@ permalink: /education/
         <td rowspan="1">Bachelor's of Science in Mathematics, UT Dallas<br><small>[2025–2026 or 2027]</small></td>
         <td>Fall</td>
         <td>
-            Graduate Abstract Algebra,<br>
-            Graduate Combinatorics and Graph Theory,<br>
+            Abstract Algebra 1,<br>
+            Topology,<br>
             Mathematical Analysis 1,<br>
-            Theoretical Concepts of Calculus
+            Advanced Calculus
         </td>
         <td>TBD</td>
     </tr>

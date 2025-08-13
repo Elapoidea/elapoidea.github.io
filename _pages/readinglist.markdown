@@ -9,4 +9,4 @@ nav: true
     <div id="reading-list"></div>
 </main>
 
-<script src="../_pages/script.js"></script>
+<script src="../assets/js/readinglist.js"></script>

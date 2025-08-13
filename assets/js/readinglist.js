@@ -1,4 +1,4 @@
-fetch('../_pages/books.json')
+fetch('../assets/data/books.json')
   .then(response => response.json())
   .then(data => {
     const container = document.getElementById('reading-list');
