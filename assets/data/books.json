@@ -9,7 +9,15 @@
     {"title": "Gamma", "author": "Julian Havil"},
     {"title": "Power Play", "author": "Edward J. Barbeau"}
   ],
-  "Fall 2025 Classes": {
+  "Fall 2025 Classes (Potentially)": {
+    "Abstract Algebra 1": [
+      {"title": "A Book of Abstract Algebra", "author": "Charles C. Pinter"},
+      {"title": "A First Course in Abstract Algebra", "author": "John B. Fraleigh"},
+      {"title": "Basic Abstract Algebra", "author": "Robert B. Ash"}
+    ],
+    "Advanced Calculus": [
+      {"title": "A Treatise on Advanced Calculus", "author": "Philip Franklin"}
+    ],
     "Math Analysis 1": [
       {"title": "Introduction to Analysis", "author": "Maxwell Rosenlicht"},
       {"title": "The Theory of Functions of Real Variables", "author": "Lawrence M. Graves"}
@@ -18,15 +26,6 @@
       {"title": "Introduction to Topology", "author": "Bert Mendelson"},
       {"title": "Introduction to Topology", "author": "Theodore W. Gamelin, Robery Everist Greene"},
       {"title": "Theory and Problems of General Topology", "author": "Seymour Lipschutz"}
-    ],
-    "Abstract Algebra 1": [
-      {"title": "A Book of Abstract Algebra", "author": "Charles C. Pinter"},
-      {"title": "A First Course in Abstract Algebra", "author": "John B. Fraleigh"},
-      {"title": "Basic Abstract Algebra", "author": "Robert B. Ash"}
-    ],
-    "Advanced Calculus": [
-      {"title": "A Treatise on Advanced Calculus", "author": "Philip Franklin"},
-      {"title": "Complex Variables and Applications", "author": "Ruel V. Churchill"}
     ]
   }
 }

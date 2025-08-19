@@ -10,5 +10,24 @@
   {%- endif -%}
 
   {%- include custom-head.html -%}
-  
+
+<script type="text/javascript">
+window.MathJax = {
+  tex: {
+    packages: {'[+]': ['ams', 'amsmath', 'amsthm', 'mathtools', 'environments']},
+    macros: {
+      RR: "\\mathbb{R}",
+      bold: ["{\\bf #1}", 1]
+    },
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    tags: "all"  // automatically number equations
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 </head>

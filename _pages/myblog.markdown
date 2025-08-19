@@ -4,6 +4,8 @@ title: Blog
 permalink: /myblog/
 ---
 
+<p>(These are test posts - will probably be taken down and rewritten once this website is more complete)</p>
+
 {%- assign posts = site.posts 
         | where: "publish", true %}
   

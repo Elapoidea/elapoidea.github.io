@@ -63,7 +63,8 @@ permalink: /education/
     <tr class="degree-separator">
         <td rowspan="1">Bachelor's of Science in Mathematics, UT Dallas<br><small>[2025–2026 or 2027]</small></td>
         <td>Fall</td>
-        <td>
+        <td> 
+            (Potential classes)<br>
             Abstract Algebra 1,<br>
             Topology,<br>
             Mathematical Analysis 1,<br>
