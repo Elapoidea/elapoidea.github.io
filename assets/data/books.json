@@ -21,7 +21,8 @@
     ],
     "Math Analysis 1": [
       {"title": "Introduction to Analysis", "author": "Maxwell Rosenlicht"},
-      {"title": "The Theory of Functions of Real Variables", "author": "Lawrence M. Graves"}
+      {"title": "The Theory of Functions of Real Variables", "author": "Lawrence M. Graves"},
+      {"title": "An Introduction to Mathematical Analysis", "author": "Robert A. Rankin"}
     ],
     "Topology": [
       {"title": "Introduction to Topology", "author": "Bert Mendelson"},
