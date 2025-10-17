@@ -9,3 +9,5 @@ Greetings. My name is Asher Grizzaffi. I am an undergraduate student majoring in
 
 
 I am currently taking Topology, Mathematical Analysis 1, Abstract Algebra, and Advanced Calculus.
+
+The draft of the hyperreal paper can be found [here](/assets/files/Hyperreals161025.pdf). This will be updated periodically every week or every two weeks until the final version is published. 
