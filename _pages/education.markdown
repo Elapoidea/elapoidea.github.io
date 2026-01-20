@@ -61,16 +61,25 @@ permalink: /education/
       <td>Hyperreals, TDA</td>
     </tr>
     <tr class="degree-separator">
-        <td rowspan="1">Bachelor's of Science in Mathematics, UT Dallas<br><small>[2025–2026 or 2027]</small></td>
+        <td rowspan="2">Bachelor's of Science in Mathematics, UT Dallas<br><small>[2025–2026]</small></td>
         <td>Fall</td>
         <td> 
-            (Potential classes)<br>
-            Abstract Algebra 1,<br>
             Topology,<br>
             Mathematical Analysis 1,<br>
+            Abstract Algebra 1,<br>
             Advanced Calculus
         </td>
-        <td>TBD</td>
+        <td>Hyperreals</td>
+        <tr>
+        <td rowspan="1">2026</td>
+          <td>Spring</td>
+          <td>
+            Mathematical Analysis 2, <br>
+            Abstract Algebra 2, <br>
+            Differential Geometry
+          </td>
+          <td>Knot Theory,<br> Number Theory</td>
+        </tr>
     </tr>
   </tbody>
 </table>
