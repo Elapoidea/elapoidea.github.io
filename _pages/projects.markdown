@@ -18,7 +18,7 @@ nav: true
         <td rowspan="3">2024</td>
         <td>Spring</td>
         <td rowspan="4">Chess Club President</td>
-        <td rowspan="4">Math Club Consultant</td>
+        <td rowspan="7">Math Club Consultant</td>
         <td></td>
     </tr>
     <tr>
@@ -32,17 +32,20 @@ nav: true
     <tr>
         <td rowspan="3">2025</td>
         <td>Spring</td>
-        <td rowspan="2">Hyperreals Research</td>
+        <td rowspan="4">Hyperreals Research</td>
     </tr>
     <tr>
       <td>Summer</td>
-      <td rowspan="2">Website and Blog</td>
       <td>Topological Data Analysis Research</td>
     </tr>
     <tr>
         <td>Fall</td>
         <td></td>
-        <td></td>
+    </tr>
+    <tr>
+        <td rowspan="1">2026</td>
+        <td>Spring</td>
+        <td>Number Theory + Knot Theory Research</td>
     </tr>
   </tbody>
 </table>

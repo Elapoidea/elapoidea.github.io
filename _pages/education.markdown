@@ -78,7 +78,7 @@ permalink: /education/
             Abstract Algebra 2, <br>
             Differential Geometry
           </td>
-          <td>Knot Theory,<br> Number Theory</td>
+          <td>Hyperreals,<br> Knot Theory,<br> Number Theory</td>
         </tr>
     </tr>
   </tbody>

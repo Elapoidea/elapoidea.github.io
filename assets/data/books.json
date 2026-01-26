@@ -1,33 +1,29 @@
 {
   "Research": [
-    {"title": "Primes of the Form x² + ny²", "author": "David A. Cox"},
-    {"title": "Hilbert's Tenth Problem", "author": "Yuri V. Matiyasevich"},
-    {"title": "Elliptic Tales", "author": "Avner Ash, Robert Gross"}
+    {"title": "Lectures on the Hyperreals", "author": "Robert Goldblatt"},
+    {"title": "The Knot Book", "author": "Colin C. Adams"},
+    {"title": "An Invitation to Knot Theory", "author": "Heather A. Dye"},
+    {"title": "Introduction to Analytic Number Theory", "author": "K. Chandrasekharan"}
   ],
   "Recreation": [
-    {"title": "Whom the Gods Love", "author": "Leopold Infeld"},
-    {"title": "Gamma", "author": "Julian Havil"},
-    {"title": "Power Play", "author": "Edward J. Barbeau"},
-    {"title": "Courant", "author": "Constance Reid"}
+    {"title": "Model Theory", "author": "C.C. Chang, H.J. Keisler"},
+    {"title": "A Course on Basic Model Theory", "author": "Haimanti Sarbadhikari, Shashi Mohan Srivastava"},
+    {"title": "An Invitation to Mathematical Logic", "author": "David Marker"},
+    {"title": "Universal Algebra", "author": "Clifford Bergman"}
   ],
-  "Fall 2025 Classes (Potentially)": {
-    "Abstract Algebra 1": [
-      {"title": "A Book of Abstract Algebra", "author": "Charles C. Pinter"},
-      {"title": "A First Course in Abstract Algebra", "author": "John B. Fraleigh"},
-      {"title": "Basic Abstract Algebra", "author": "Robert B. Ash"}
+  "Spring 2026 Classes": {
+    "Algebra 2": [
+      {"title": "Basic Abstract Algebra", "author": "Robert B. Ash"},
+      {"title": "Group Theory", "author": "W. R. Scott"},
+      {"title": "Algebra", "author": "Serge Lang"}
     ],
-    "Advanced Calculus": [
-      {"title": "A Treatise on Advanced Calculus", "author": "Philip Franklin"}
+    "Analysis 2": [
+      {"title": "Introduction to Calculus and Analysis", "author": "Richard Courant, Fritz John"},
+      {"title": "Principles of Mathematical Analysis", "author": "Walter Rudin"},
+      {"title": "An Introduction to Analysis", "author": "William R. Wade"}
     ],
-    "Math Analysis 1": [
-      {"title": "Introduction to Analysis", "author": "Maxwell Rosenlicht"},
-      {"title": "The Theory of Functions of Real Variables", "author": "Lawrence M. Graves"},
-      {"title": "An Introduction to Mathematical Analysis", "author": "Robert A. Rankin"}
-    ],
-    "Topology": [
-      {"title": "Introduction to Topology", "author": "Bert Mendelson"},
-      {"title": "Introduction to Topology", "author": "Theodore W. Gamelin, Robery Everist Greene"},
-      {"title": "Theory and Problems of General Topology", "author": "Seymour Lipschutz"}
+    "Differential Geometry": [
+      {"title": "Elementary Differential Geometry", "author": "Barrett O'Neill"}
     ]
   }
 }
